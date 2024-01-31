@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "## Database, entity, and attributes An app can have a database to manage data for the app. The database will have entities that represent a thing, place, person, or object. An entity may have multiple attributes, and the attributes describe an entity, such as id, name, age, address of a person, id, name, price of a thing, etc. </br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FullstackAcademy/intro_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FullstackAcademy/intro_backend/issues"
+  },
+  "homepage": "https://github.com/FullstackAcademy/intro_backend#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
